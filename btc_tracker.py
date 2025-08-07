@@ -49,8 +49,8 @@ def create_ascii_graph(prices):
     if len(prices) < 2:
         return "Insufficient data for graph"
     
-    graph_height = 8
-    graph_width = 50
+    graph_height = 10
+    graph_width = 80
     
     # Extract price values
     price_values = [price[1] for price in prices]
